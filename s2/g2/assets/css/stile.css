@@ -241,21 +241,19 @@ footer a {
 
 
 @media print {
-    header,footer, iframe, form, aside,a, section, .social,.toTop  {
+    header,footer, iframe, form, aside,a, section, .social,.toTop {
         display: none; 
+        
+    
     }
         
-
 body {font-family: Poppins, 'Helvetica Neue', sans-serif;
     font-size: 2.5rem;
+    box-shadow: white;
 }
 
 table tr{
     border-bottom: 2px solid black;
 }
-
-
-
-
 
 }

@@ -9,6 +9,8 @@ body {
     background-position: center center;
 
 }
+
+
 * {box-sizing: border-box;}
 hr {display: none;} /* rimuove l'elemento */
 
@@ -169,12 +171,34 @@ tbody tr:last-of-type {
     padding-right: 20px;
     background-color: grey;
     box-shadow: 1px 1px 2px black;
+}
+ /*icone*/
 
+#calender{
+    position: fixed;
+    right:-15px;
+top: 50vh;
+    z-index: 99;
+ }
+#plus{
+    position:fixed;
+    right:-15px;
+    top: 40vh;
+    z-index: 99;
+}
+#top {
+    position: relative;
+    top: -220px;
+    visibility: none;
+    z-index: 99;
 
 }
-
-
-
+ #icontotop{
+     position:fixed;
+     right: -15px;
+     color: palevioletred;
+     z-index: 99;
+}
 
 
 
