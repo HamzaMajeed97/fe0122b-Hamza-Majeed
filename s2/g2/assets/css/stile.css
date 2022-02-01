@@ -230,10 +230,34 @@ footer a {
     color: fuchsia;
 }
 
+/*media queries*/
 
 
+@media screen and (min-width:320px){
+   
+ h1{
+    text-align: center ;
 
+}
+  iframe{
+        
+        width:100%;
+        height: auto;
+        }
 
+}
+@media screen and (min-width:480px){
+
+}
+table{
+    margin-right: auto;
+    margin-left:auto;
+}
+
+fieldset{
+    max-width: 100%;
+    max-height: 100%;
+}
 
 
 
@@ -249,11 +273,16 @@ footer a {
         
 body {font-family: Poppins, 'Helvetica Neue', sans-serif;
     font-size: 2.5rem;
-    box-shadow: white;
+    
+    
 }
 
-table tr{
-    border-bottom: 2px solid black;
+
+
+    
+
+th{
+    color: black;
 }
 
 }
