@@ -23,8 +23,15 @@ header {
     box-shadow: 0 3px 3px #444;
     margin-bottom: 1.5em;
     padding: 2em 1.5em;
+    position: fixed;
+    margin-left: 10px;
+z-index: 1;
     
     
+}
+
+header li {
+    display: inline;
 }
 header div img {
     margin-bottom: 20px;
@@ -52,6 +59,8 @@ main {
     box-shadow: 0 3px 3px #444;
     padding: 2em 1em;
     margin-bottom:1.5em ;
+    margin-top: 220px;
+    
 }
 section { 
     background-color: #e3e3e3;
@@ -74,6 +83,18 @@ h1 {
     letter-spacing: -0.03em;
     margin-bottom: 0.7em;
 }
+
+main  figure:first-of-type{
+ float: left;
+ margin-right: 30px;
+border: 5px solid cornflowerblue;
+outline: 4px solid purple;
+padding-top: 5px;
+margin-bottom: 10px;
+
+}
+
+
 p, address, ul, ol, dl, blockquote {
     margin-bottom: 1.2em;
 }
@@ -133,6 +154,32 @@ tbody tr:last-of-type {
 }
 
 /* FORM */
+
+.form{
+    position: relative;
+   
+}
+/*Modifiche h2*/
+
+
+.form h2 {
+    position: absolute;
+    top: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: grey;
+    box-shadow: 1px 1px 2px black;
+
+
+}
+
+
+
+
+
+
+
+
 input {
     padding: 5px;
     border: 0;
