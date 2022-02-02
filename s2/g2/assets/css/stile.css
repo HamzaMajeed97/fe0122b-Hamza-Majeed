@@ -254,11 +254,23 @@ table{
     margin-left:auto;
 }
 
-fieldset{
-    max-width: 100%;
-    max-height: 100%;
+
+
+@media screen and (min-width:768px){
+    header body footer {
+        margin: 100px;
+        
+    }
 }
 
+
+@media screen and (min-width:1024px){
+
+}
+
+@media screen and (min-width:1200px){
+
+}
 
 
 
@@ -277,9 +289,6 @@ body {font-family: Poppins, 'Helvetica Neue', sans-serif;
     
 }
 
-
-
-    
 
 th{
     color: black;
