@@ -332,3 +332,36 @@ footer a {
     }
 }
 
+
+/*grid view*/
+
+main{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 35% 65%;
+    
+
+}
+
+article{
+    display:grid;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+
+
+aside{
+    grid-row: 1;
+    }
+
+section{
+    height: 300px;
+    position:sticky;
+    top: 45%;
+    z-index: 99;
+    
+    
+}
+
+
