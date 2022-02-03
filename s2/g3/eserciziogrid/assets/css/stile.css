@@ -335,6 +335,11 @@ footer a {
 
 /*grid view*/
 
+
+
+@media screen and (min-width:800px) and (max-width:1200px){
+
+
 main{
     display: grid;
     grid-template-columns: 60% 40%;
@@ -359,9 +364,10 @@ section{
     height: 300px;
     position:sticky;
     top: 45%;
-    z-index: 99;
+    
+
     
     
 }
-
+}
 
