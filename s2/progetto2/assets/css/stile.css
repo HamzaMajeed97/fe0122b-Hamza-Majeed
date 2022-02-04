@@ -1,21 +1,32 @@
 /* IMPOSTAZIONI GENERALI */
-html{
+
+body{
     font-family: 'Fira Sans', sans-serif;
-    
+    line-height: 1.8rem;
+    font-size: 1.5rem;
+    color: #000;
+
 }
 h1{
     font-size: 4rem;
+    line-height: 1rem;
+
 }
 h2{
     font-size: 3.5rem;
 }
 
+.icone{
+    color: #e42424;
+}
 
 
 
 button{
     background-image: linear-gradient(100deg,#6cc1e2,#392f7a);
+    font-size: 1.9rem;
     color: white;
+
 
 }
 
@@ -23,6 +34,7 @@ button{
 /* HEADER */
 header{
  background-color: white;
+ box-shadow: 3px 3px 3px 3px #d3d3d3;
 }
 
 /* MAIN */
@@ -36,9 +48,7 @@ header{
     color: white;
     text-align: center;
 }
-.scrivici h3{
-    
-}
+
 
 
 
@@ -59,6 +69,45 @@ footer{
         text-align: center;
         
     }
+
+
+
+
+
+
+    footer{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    footer form{
+        margin-top: 8px;   
+    }
+    footer input{
+        width: 250px;
+        height: 40px;
+    }
+    footer button{
+        width: 250px ;
+        border: none;
+        font-size: 15px;
+        padding: 10px 10px 10px 10px ;
+        margin-bottom: 15px;
+        margin-left: 20px;
 }
+
+    footer p:last-child {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 15px;
+     }
+
+  
+
+    
+        
+    }
+
     
 
