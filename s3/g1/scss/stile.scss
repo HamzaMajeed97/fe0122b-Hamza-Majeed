@@ -1,0 +1,23 @@
+@import "bottone.scss";
+@import "variabili.scss";
+
+
+.logo{
+    display: block;
+}
+
+li{
+    display: inline;
+    text-decoration:none;
+
+
+    
+
+    
+}
+.btn-primary, .btn-secondary{
+ border: $btnbordi ;
+ background-color: $btncolore;
+    
+    
+}

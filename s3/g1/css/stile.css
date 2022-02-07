@@ -1,0 +1,10 @@
+.logo {
+  display: block; }
+
+li {
+  display: inline;
+  text-decoration: none; }
+
+.btn-primary, .btn-secondary {
+  border: 2px solid black;
+  background-color: salmon; }
