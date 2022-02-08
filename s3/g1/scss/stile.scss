@@ -3,21 +3,22 @@
 
 
 .logo{
-    display: block;
+    display: inline-block;
 }
 
-li{
+body{
+    text-align: center;
+}
+li {
+    margin: 1.2rem;
     display: inline;
-    text-decoration:none;
-
-
-    
-
-    
+    text-decoration: none;
 }
 .btn-primary, .btn-secondary{
  border: $btnbordi ;
  background-color: $btncolore;
+ color: $btncolorefont;
+
     
     
 }
