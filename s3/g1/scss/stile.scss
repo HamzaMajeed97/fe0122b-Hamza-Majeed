@@ -1,14 +1,18 @@
+
+
+
 @import "bottone.scss";
 @import "variabili.scss";
+
 
 
 .logo{
     display: inline-block;
 }
 
-body{
-    text-align: center;
-}
+
+
+
 li {
     margin: 1.2rem;
     display: inline;
@@ -18,6 +22,7 @@ li {
  border: $btnbordi ;
  background-color: $btncolore;
  color: $btncolorefont;
+ text-decoration: none;
 
     
     

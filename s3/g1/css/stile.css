@@ -1,9 +1,6 @@
 .logo {
   display: inline-block; }
 
-body {
-  text-align: center; }
-
 li {
   margin: 1.2rem;
   display: inline;
@@ -11,5 +8,6 @@ li {
 
 .btn-primary, .btn-secondary {
   border: 2px solid black;
-  background-color: linear-gradient(0deg, yellow, purple);
-  color: white; }
+  background-color: blue;
+  color: white;
+  text-decoration: none; }

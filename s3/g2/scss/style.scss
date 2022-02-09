@@ -1,0 +1,62 @@
+html{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+#main{
+    display: flex;
+    
+}
+
+#main-menu {
+    background-color: blue;
+    
+    li{
+        list-style-type: none;
+        display: inline-block;
+        margin: 1.5rem;
+        
+
+         }
+    a{
+        text-decoration: none;
+        color: white;
+        font-style: italic;
+        
+    }
+
+
+}
+#sidebar  {
+    max-width: 100px;
+    
+    li{list-style: none;
+
+
+
+    }
+    
+    
+    
+}
+
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+#footer{
+    background-color: cadetblue;
+    height: 3rem;
+    
+    
+    div{
+        display: none;
+    }
+}
+  
+    
+    
