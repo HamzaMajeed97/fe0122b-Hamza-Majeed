@@ -1,11 +1,8 @@
-html {
+body {
   width: 960px;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Fira Sans', sans-serif; }
-
-#main {
-  display: flex; }
+  font-family: "Fira Sans', sans-serif"; }
 
 #main-menu {
   background-color: blue; }
@@ -18,10 +15,9 @@ html {
     color: white;
     font-style: italic; }
 
-#sidebar {
-  max-width: 100px; }
-  #sidebar li {
-    list-style: none; }
+#sidebar li {
+  list-style: none;
+  border-bottom: 2px dotted black; }
 
 h1 {
   font-size: 2.5rem;
