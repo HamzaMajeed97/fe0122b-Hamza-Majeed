@@ -1,19 +1,201 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"  content="progetto pratico conclusivo del corso Epicode School">
+    <meta name="description" content="progetto pratico conclusivo del corso Epicode School">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
-<link rel="stylesheet" href="css/style.css">
-   <title>Progetto con Bootstrap e SASS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Progetto con Bootstrap e SASS</title>
 
 </head>
+
 <body>
- 
+
+    <header>
+        <nav class="navbar navbar-dark bg-primary navbar-expand">
+            <div class="container">
+                <a href="#" class="navbar-brand d-flex w-50 mb-6">La Nostra Azienda</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#btnCollapseNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse w-100" id="btnCollapseNav">
+                    <ul class="nav navbar-nav ms.auto w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servizi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">La nostra storia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Come contattarci</a>
+                        </li>
+                        <img src="node_modules/bootstrap-icons/icons/facebook.svg">
+                        <img src="node_modules/bootstrap-icons/icons/instagram.svg">
+                        <img src="node_modules/bootstrap-icons/icons/linkedin.svg" >
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="container ">
+                <div class="row">
+                    <div class="col-12 text-center ">
+                        <h1>La Nostra Missione</h1>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur rem eaque, corporis,
+                            unde
+                            libero natus laborum rerum sit atque consequatur beatae quasi error harum necessitatibus
+                            delectus ipsa minima, praesentium accusamus?
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <section class="container mb-5 mt-5">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Partnership</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint
+                                necessitatibus ad quae eius velit recusandae minima laboriosam eos libero minus
+                                iusto animi assumenda quaerat repellat qui voluptate ullam, facilis aliquam!.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-primary">leggi di piu...</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Partnership</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                                magni excepturi nemo modi sit vitae placeat in a laborum officia cumque quaerat
+                                minima itaque, cupiditate mollitia earum sed accusantium et.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-primary">leggi di piu...</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Partnership</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
+                                porro nesciunt dolores atque tenetur quidem voluptatem vero cupiditate et soluta
+                                est, consectetur corrupti at, recusandae, ab omnis nisi provident minus.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-primary">leggi di piu...</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+           
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+    <aside>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 ">
+                    <div class="carousel slide" data-bs-ride="carousel" id="mioCarousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#mioCarousel" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#mioCarousel" data-bs-slide-to="1"></li>
+                            <li data-bs-target="#mioCarousel" data-bs-slide-to="2"></li>
+
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/02-4.jpg"
+                                    class="d-inline-block w-50 " alt="slide 1">
+
+                                <div class="text-center">
+                                    <h5>Testimoni</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis enim quam.
+                                        incidunt
+                                       </p>
+                                </div>
+
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="img/member0511-570x570.jpg"
+                                    class="d-inline-block w-50" alt="slide 2">
+
+                                <div class="text-center">
+                                    <h5>Testimoni</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis enim quam
+                                        incidunt
+                                    .</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="img/images.jpg" class="d-block w-50 "
+                                alt="slide 3">
+
+                            <div class="text-center">
+                                <h5>Testimoni</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis enim quam
+                                    incidunt.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#mioCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#mioCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+            </div>
+        </div>
+
+        </div>
+
+        </div>
+    </aside>
+
     
+    
+    
+    <footer class="bg-primary text-center contenitorefooter  ">
+            <a class="text-dark" href="#">&copy;Nome Azienda P.IVA 06.123456</a>
+  
+    </footer>
 
 
 
@@ -23,72 +205,8 @@
 
 
 
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js">   </script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js">   </script>   
- 
 </body>
+
 </html>
