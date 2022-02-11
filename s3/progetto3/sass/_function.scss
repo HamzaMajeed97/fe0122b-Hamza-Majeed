@@ -1,5 +1,5 @@
 @function set-color($color) {
-  @if (lightness($color) > 0) {
+  @if (lightness($color) > 50) {
     @return #000;
   }
   @else {

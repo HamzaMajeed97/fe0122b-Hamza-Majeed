@@ -1,2 +1,13 @@
 body {
   background-color: wheat; }
+
+p {
+  color: #000; }
+
+header nav {
+  margin-bottom: 30px; }
+  header nav li {
+    margin: 10px; }
+
+header img {
+  margin: 10px; }

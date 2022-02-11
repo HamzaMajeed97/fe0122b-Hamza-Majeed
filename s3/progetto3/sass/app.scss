@@ -1,7 +1,32 @@
 @import "function";
 
 
-body{
-    background-color: wheat;
+$marginbh:30px;
+$marginli:10px;
+
+
+body { background-color: wheat;} 
+p { color: set-color(white); }
+
+
+
+
+
+
+header{
+    nav{
+        margin-bottom: $marginbh;
+      li{
+          margin: $marginli;
+        
+      }
+    }
+}
+
+
+header{
+    img{
+        margin: 10px;
+    }
 }
 
