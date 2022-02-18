@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calcolatrice in JS </title>
+</head>
+
+<body>
+
+    <div id="calcolatrice">
+
+        <h1>La mia calcolatrice in JS </h1>
+        <input type="text" id="display">
+
+
+        <div id="tastierino">
+
+           <!--PRIMA RIGA--> 
+            
+            <div id="7" onclick="prendiNumero(this)">7</div>
+
+            <div id="8" onclick="prendiNumero(this)">8</div>
+
+            <div id="9" onclick="prendiNumero(this)">9</div>
+
+            <div id="/" onclick="prendiNumero(this)">/</div>
+
+           <!--SECONDA RIGA-->
+
+            <div id="4" onclick="prendiNumero(this)">4</div>
+
+            <div id="5" onclick="prendiNumero(this)">5</div>
+
+            <div id="6" onclick="prendiNumero(this)">6</div>
+
+            <div id="*" onclick="prendiNumero(this)">X</div>
+
+            <!--TERZA RIGA-->
+
+            <div id="1" onclick="prendiNumero(this)">1</div>
+
+            <div id="2" onclick="prendiNumero(this)">2</div>
+
+            <div id="3" onclick="prendiNumero(this)">3</div>
+
+            <div id="-" onclick="prendiNumero(this)">-</div>
+
+            <!--QUARTA RIGA -->
+
+            <div id="c" onclick="resetta()">C</div>
+
+            <div id="0" onclick="prendiNumero(this)">0</div>
+
+            <div id="." onclick="prendiNumero(this)">.</div>
+
+            <div id="+" onclick="prendiNumero(this)">+</div>
+
+            <!--TOTALE-->
+
+            <div id="=" onclick="uguale()">=</div>
+
+
+      </div>
+
+
+     </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

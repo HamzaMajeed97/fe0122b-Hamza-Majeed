@@ -1,0 +1,61 @@
+/* IMPOSTAZIONI GENERALI */
+
+body{
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+
+}
+
+/* DISPLAY */
+
+#display{
+    border: 2px solid rgb(15, 66, 160);
+    width: 256px;
+    height: 50px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 40px;
+    color: rgb(15, 66, 160);
+    font-weight: bold;
+    
+}
+
+
+/* TASTIERINO */ 
+
+#tastierino{
+
+    width: 300px;
+    height: 360px;
+    margin: auto;
+    border-radius: 5px;
+    
+    }
+    
+    
+
+#tastierino > div:hover{
+    background-color:  rgb(15, 66, 160) ;
+    color:  lightgrey ;
+}
+
+
+#tastierino > div{
+
+    display: inline-block;
+    background-color: lightgrey;
+    color: rgb(15, 66, 160);
+    margin: 7px 7px ;
+    font-size: 40px;
+    height:50px;
+    width: 50px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+
+#tastierino :last-child {
+
+    width: 256px;
+}
