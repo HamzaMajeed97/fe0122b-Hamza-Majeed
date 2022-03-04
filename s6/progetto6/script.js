@@ -30,6 +30,7 @@ $(document).ready(function(){
                 let clicks = $("#clicks").text();
                 clicks++
                 $("#clicks").text(clicks);
+                
 
 
 
@@ -66,6 +67,7 @@ $(document).ready(function(){
                     if(immaginiCliccate[0].src == immaginiCliccate[1].src){
                         $("#"+immaginiCliccate[0].id).css("cursor","no-drop");
                         $("#"+immaginiCliccate[1].id).css("cursor","no-drop");
+                     
                         immaginiCliccate = []
                     }else {
                         setTimeout(function (){
