@@ -55,7 +55,7 @@ bottoneInvia.addEventListener("click", function (e) {
     if (controllo){
 
         var nuovoUtente = new User (username,email1,password)
-       let utenteSalvato=  salvaDati(nuovoUtente)
+        let utenteSalvato=  salvaDati(nuovoUtente)
        
         if (utenteSalvato){
             setTimeout(function(){
