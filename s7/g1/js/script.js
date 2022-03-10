@@ -1,8 +1,10 @@
 class User {
     constructor(username, email, password) {
-
-       
-
+        this.id = (()=> {
+            let newId = localStorage.getItem("id") == null ? 1 : Number(localStorage.getItem("id"))+1
+            localStorage.setItem("id", newId)
+            return newId  // serve per generare un nuovo id ogni volta che inseriamo un nuovo utente
+        })
         this.username = username
         this.email = email
         this.password = password
