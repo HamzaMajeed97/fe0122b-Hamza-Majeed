@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(218, 213, 213);
+    background-color: coral;
 }
 .tabella {
-    width: 500px;
-    height: 500px;
+    width: auto;
+    height: auto;
     position: relative;
     margin: 5%;
     border-style: double;
@@ -13,9 +13,7 @@ body {
     font-size: 13px;
 }
 
-button {
-    border: none;
-    box-shadow: 2px 3px azure;
-    font-size: 9px;
-    background-color: transparent;
+button:hover{
+    background-color: red;
+   
 }
