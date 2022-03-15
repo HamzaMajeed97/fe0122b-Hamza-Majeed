@@ -12,7 +12,7 @@ console.log(numero)
 let diff1 = Math.abs(numero - giocatore1)
 let diff2 = Math.abs(numero - giocatore2)
 
-if (diff1 < diff2 && diff1 != 0) {
+if (diff1 < diff2 && diff1 != 0) {  
 
     console.log("gioc1 è andato piu vicino ");
 
@@ -26,7 +26,6 @@ if (diff1 < diff2 && diff1 != 0) {
 } else if (giocatore1 == giocatore2) {
     console.log("pareggio")
 }
-
 
 
 
