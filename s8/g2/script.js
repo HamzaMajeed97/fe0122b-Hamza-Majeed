@@ -42,8 +42,9 @@ var MotherAccount = /** @class */ (function (_super) {
     };
     return MotherAccount;
 }(SonAccount));
-var figlio = new SonAccount(3000);
-var madre = new MotherAccount(2000);
+var figlio = new SonAccount(2000);
+var madre = new MotherAccount(3000);
 console.log(figlio.balanceInit);
 console.log(figlio.oneDeposit(100));
 console.log(figlio.oneWithDraw(100));
+console.log(madre.addInterests());

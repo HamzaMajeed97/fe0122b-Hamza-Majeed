@@ -6,10 +6,8 @@ class SonAccount {
     
 
     constructor( balanceInit: number){
-
         this.balanceInit=  balanceInit
      
-
 
     }
 
@@ -43,11 +41,10 @@ class MotherAccount extends SonAccount{
     }
 
     interests():number{
-        return (this.balanceInit /100) *10
+        return (this.balanceInit /100) * 10
     }
   
     addInterests(): number {
-
         return this.balanceInit += this.interests()
     }
 
@@ -56,13 +53,14 @@ class MotherAccount extends SonAccount{
 }
 
 
-let figlio = new SonAccount (3000)
-let madre = new MotherAccount (2000)
+let figlio = new SonAccount (2000)
+let madre = new MotherAccount (3000)
 
 console.log(figlio.balanceInit)
 console.log(figlio.oneDeposit(100))
 console.log(figlio.oneWithDraw(100))
 
+console.log(madre.addInterests())
 
 
 
