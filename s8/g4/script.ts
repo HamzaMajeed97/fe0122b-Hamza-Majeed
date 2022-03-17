@@ -10,7 +10,7 @@ interface Smartphone {
     azzeraChiamate():number;
 
 
-
+     
 }
 
 
