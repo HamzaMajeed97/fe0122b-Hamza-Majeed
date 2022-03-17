@@ -17,7 +17,7 @@ abstract class Lavoratori {
   abstract  getTasseInps():number ;
   abstract  getTasseIrpef():number;
   abstract  getRedditoAnnuoNetto():number;
-
+ 
 
 
 
@@ -60,5 +60,5 @@ class Avvocato extends Lavoratori {
 
 
 let avvocato = new Avvocato (35000)
-console.log (avvocato.getRedditoAnnuoNetto())
+console.log(avvocato.getRedditoAnnuoNetto())
 
