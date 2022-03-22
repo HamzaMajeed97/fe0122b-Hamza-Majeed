@@ -1,0 +1,40 @@
+header{
+
+background: linear-gradient(90deg, rgba(255,2,2,1) 1%, rgba(255,255,255,1) 45%, rgba(50,209,17,1) 100%); 
+
+}
+
+#titolo{
+
+    font-size: 70px;
+
+
+
+
+}
+
+#mappa{
+
+position: absolute;
+padding: 20px ;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*background: rgb(255,2,2);
+
+background: linear-gradient(90deg, rgba(255,2,2,1) 1%, rgba(255,255,255,1) 45%, rgba(50,209,17,1) 100%); */
